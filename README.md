@@ -12,3 +12,18 @@ git clone https://github.com/schwaad/petcc-password-generator
 cd petcc-password-generator/
 ./petcc-password-generator.sh
 ```
+Você deve receber essa mensagem de ajuda:
+```terminal
+Bem vindo ao password-generator!
+  Versão 1.0, (c) 2025, schwaad
+  Uso: ./password-generator.sh [OPÇÕES]
+  Opções:
+  -l [COMPRIMENTO] : comprimento da senha
+  -u               : incluir letras maiúsculas
+  -d               : incluir números
+  -s               : incluir símbolos
+  -g [ARQUIVO]     : armazena a senha no arquivo 
+  -n [NOME]        : nomeia a senha que está sendo criada
+  -p [ARQUIVO]     : lista as senhas armazenadas no arquivo
+  -h               : exibir essa mensagem de ajuda
+  ```
